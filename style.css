@@ -394,13 +394,13 @@ footer h3 {
 
 @media only screen and  (max-width: 2560px) {
     body{
-      
+      width:70%;
+      margin:auto;
     }
 
 }
 @media (max-width: 1440px) {
     body {
-        
        
     }
 }
@@ -413,7 +413,8 @@ footer h3 {
 }
 @media (max-width: 1024px) {
     body {
-       
+        width: 100%;
+        margin: auto;
     }
     .bloc {
         padding-left: 0%;
@@ -774,7 +775,7 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
+    font-family: Cambria;
     font-weight: 400;
     color: #575757 !important;
 }
