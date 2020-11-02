@@ -86,9 +86,11 @@ a, button {
     .d-bloc .panel, .l-bloc {
         color: rgba(0,0,0,.5)
     }
-
+#main__h2 {
+    color: #12333D;font-weight:600;
+}
 .fa-dribbble, .fa-facebook, .fa-instagram, .fa-twitter {
-    margin-right: 4%
+    margin-right: 4% ;color:#12333D
 }
 
 .d-bloc .panel .a-btn, .l-bloc .a-btn, .l-bloc .navbar a, .l-bloc .navbar-brand, .l-bloc a .icon-lg, .l-bloc a .icon-md, .l-bloc a .icon-sm, .l-bloc a .icon-xl, .l-bloc h1 a, .l-bloc h2 a, .l-bloc h3 a, .l-bloc h4 a, .l-bloc h5 a, .l-bloc h6 a, .l-bloc p a {
@@ -202,7 +204,7 @@ a[data-lightbox] {
     text-align: center
 }
 
-.btn, a, h1, h2, h3, h4, h5, h6, label, p {
+.btn, h1, h3, h4, h5, h6, label, p {
     font-family: helvetica;
     font-weight: 400;
     color: #575757 !important
@@ -308,8 +310,8 @@ h1 {
 }
 
 .btn-atomic-tangerine {
-    background: #f3976c;
-    color: #fff !important;
+    background: #F3976C;
+    color: #12333D !important;
     font-size: 1.6em
 }
 
@@ -425,9 +427,14 @@ address {
 }
 
 footer {
-    text-align: center
+    text-align: center;
+    
 }
 
     footer h3 {
-        font-size: 1.3em
+        font-size: 1.3em;
+        color: #12333D;
+    }
+    footer a {
+        color: #12333D
     }
